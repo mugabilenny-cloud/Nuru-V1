@@ -1,0 +1,8 @@
+{
+  "name": "nuru-job-connect",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "dev": "npm run build && npx serve dist" },
+  "dependencies": { "read-excel-file": "^5.8.5" }
+}
